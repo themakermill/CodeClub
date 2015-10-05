@@ -1,2 +1,2 @@
 # CodeClub
-Repo for Code Club proijects 
+Repo for Code Club projects 
