@@ -1,0 +1,10 @@
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\bin\Debug\ProductTester.exe.config
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\obj\Debug\ProductTester.csprojResolveAssemblyReference.cache
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\bin\Debug\ProductTester.exe
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\bin\Debug\ProductTester.pdb
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\bin\Debug\Newtonsoft.Json.dll
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\bin\Debug\Newtonsoft.Json.xml
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\obj\Debug\ProductTester.exe
+c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductTester\ProductTester\obj\Debug\ProductTester.pdb
