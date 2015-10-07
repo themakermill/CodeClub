@@ -26,3 +26,31 @@ c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductsApiAp
 c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductsApiApp\ProductsApiApp\obj\Debug\ProductsApiApp.csprojResolveAssemblyReference.cache
 c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductsApiApp\ProductsApiApp\obj\Debug\ProductsApiApp.dll
 c:\users\tbaggs.northamerica\documents\visual studio 2015\Projects\ProductsApiApp\ProductsApiApp\obj\Debug\ProductsApiApp.pdb
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\csc.exe
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\vbc.exe
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\ProductsApiApp.dll.config
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\ProductsApiApp.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\ProductsApiApp.pdb
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\Newtonsoft.Json.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\System.Net.Http.Formatting.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\System.Web.Http.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\System.Web.Http.WebHost.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\Newtonsoft.Json.xml
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\System.Net.Http.Formatting.xml
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\System.Web.Http.xml
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\bin\System.Web.Http.WebHost.xml
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\obj\Debug\ProductsApiApp.csprojResolveAssemblyReference.cache
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\obj\Debug\ProductsApiApp.dll
+C:\Users\tbaggs.NORTHAMERICA\Source\Repos\CodeClub\ProductsApiApp\ProductsApiApp\obj\Debug\ProductsApiApp.pdb

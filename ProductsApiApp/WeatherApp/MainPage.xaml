@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="WeatherApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid RequestedTheme="Light" Background="#FFEEECEC">
+        <Button x:Name="getWeather" Content="Get Weather" HorizontalAlignment="Left" Margin="713,557,0,0" VerticalAlignment="Top" Click="getWeather_Click" Height="55" Width="169"/>
+        <ListView x:Name="cityList" HorizontalAlignment="Left" Height="560" Margin="65,52,0,0" VerticalAlignment="Top" Width="351">
+            <ListViewItem Content="Phoenix, AZ"/>
+            <ListViewItem Content="North Andover, MA"/>
+        </ListView>
+        <Image x:Name="weatherImage" HorizontalAlignment="Left" Height="386" Margin="460,52,0,0" VerticalAlignment="Top" Width="449"/>
+        <TextBlock x:Name="weatherText" HorizontalAlignment="Left" Margin="460,489,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="40" Width="422"/>
+
+    </Grid>
+</Page>
