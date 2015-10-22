@@ -14,16 +14,22 @@ namespace WeatherApp2
     {
         public async static Task<RootObject> GetWeather(string selectedCity)
         {
-            var http = new HttpClient();
-            var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?units=imperial&q=" + selectedCity);
+            try {
+                var http = new HttpClient();
+                var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?units=imperial&q=" + selectedCity);
 
-            var result = await response.Content.ReadAsStringAsync();
-            var serializer = new DataContractJsonSerializer(typeof(RootObject));
+                var result = await response.Content.ReadAsStringAsync();
+                var serializer = new DataContractJsonSerializer(typeof(RootObject));
 
-            var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
-            var data = (RootObject)serializer.ReadObject(ms);
+                var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
+                var data = (RootObject)serializer.ReadObject(ms);
 
-            return data;
+                return data;
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
         }
     }
 

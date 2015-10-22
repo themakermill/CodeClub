@@ -14,16 +14,25 @@ namespace WeatherApp
     {
         public async static Task<RootObject> GetWeather(string selectedCity)
         {
-            var http = new HttpClient();
-            var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?units=imperial&q=" + selectedCity);
+            try
+            {
+                var http = new HttpClient();
+                var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?APPID=b306de635c39f18ab948a3082c44648d&units=imperial&q=" + selectedCity);
 
-            var result = await response.Content.ReadAsStringAsync();
-            var serializer = new DataContractJsonSerializer(typeof(RootObject));
+                var result = await response.Content.ReadAsStringAsync();
+                var serializer = new DataContractJsonSerializer(typeof(RootObject));
 
-            var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
-            var data = (RootObject)serializer.ReadObject(ms);
+                var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
+                ms.Position = 0;
 
-            return data;
+                var data = (RootObject)serializer.ReadObject(ms);
+
+                return data;
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
         }
     }
 
@@ -60,7 +69,7 @@ namespace WeatherApp
         public double temp { get; set; }
 
         [DataMember]
-        public int pressure { get; set; }
+        public double pressure { get; set; }
 
         [DataMember]
         public int humidity { get; set; }
@@ -70,6 +79,12 @@ namespace WeatherApp
 
         [DataMember]
         public double temp_max { get; set; }
+
+        [DataMember]
+        public double seal_level { get; set; }
+
+        [DataMember]
+        public double grnd_level { get; set; }
     }
 
     [DataContract]
@@ -79,7 +94,7 @@ namespace WeatherApp
         public double speed { get; set; }
 
         [DataMember]
-        public int deg { get; set; }
+        public double deg { get; set; }
     }
 
     /*
@@ -102,12 +117,13 @@ namespace WeatherApp
     public class Sys
     {
 
+        /*
         [DataMember]
         public int type { get; set; }
 
         [DataMember]
         public int id { get; set; }
-
+        */
         [DataMember]
         public double message { get; set; }
 
@@ -138,6 +154,7 @@ namespace WeatherApp
 
         [DataMember]
         public Wind wind { get; set; }
+        
         /*
         [DataMember]
         public Rain rain { get; set; }

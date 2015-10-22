@@ -11,8 +11,6 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ProductViewer", "ProductVie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{D2257727-4B1C-4F2B-829F-B37170A0B7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp2", "WeatherApp2\WeatherApp2.csproj", "{1FC79D88-4CA0-4D02-8547-8AC724477C6D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,26 +85,6 @@ Global
 		{D2257727-4B1C-4F2B-829F-B37170A0B7EF}.Release|x86.ActiveCfg = Release|x86
 		{D2257727-4B1C-4F2B-829F-B37170A0B7EF}.Release|x86.Build.0 = Release|x86
 		{D2257727-4B1C-4F2B-829F-B37170A0B7EF}.Release|x86.Deploy.0 = Release|x86
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|ARM.ActiveCfg = Debug|ARM
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|ARM.Build.0 = Debug|ARM
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|ARM.Deploy.0 = Debug|ARM
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|x64.ActiveCfg = Debug|x64
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|x64.Build.0 = Debug|x64
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|x64.Deploy.0 = Debug|x64
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|x86.ActiveCfg = Debug|x86
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|x86.Build.0 = Debug|x86
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Debug|x86.Deploy.0 = Debug|x86
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|Any CPU.ActiveCfg = Release|x86
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|ARM.ActiveCfg = Release|ARM
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|ARM.Build.0 = Release|ARM
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|ARM.Deploy.0 = Release|ARM
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|x64.ActiveCfg = Release|x64
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|x64.Build.0 = Release|x64
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|x64.Deploy.0 = Release|x64
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|x86.ActiveCfg = Release|x86
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|x86.Build.0 = Release|x86
-		{1FC79D88-4CA0-4D02-8547-8AC724477C6D}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,10 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="getWeather" Content="Get Weather" HorizontalAlignment="Left" Margin="1102,811,0,0" VerticalAlignment="Top" Height="80" Width="216" Click="getWeather_Click"/>
+        <Button x:Name="getWeather" Content="Get Weather" HorizontalAlignment="Left" Margin="688,715,0,0" VerticalAlignment="Top" Height="80" Width="216" Click="getWeather_Click"/>
         <ListView x:Name="cityList" HorizontalAlignment="Left" Height="789" Margin="105,102,0,0" VerticalAlignment="Top" Width="437" BorderThickness="1" BorderBrush="#FFB8AAAA"/>
         <Image x:Name="weatherImage" HorizontalAlignment="Left" Height="547" Margin="688,102,0,0" VerticalAlignment="Top" Width="630"/>
-        <TextBlock x:Name="weatherText" HorizontalAlignment="Left" Margin="688,725,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="24" Width="630"/>
+        <TextBlock x:Name="weatherText" HorizontalAlignment="Left" Margin="688,686,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="24" Width="630"/>
 
     </Grid>
 </Page>
